@@ -16,4 +16,12 @@ class TestController extends Controller
         // استدعاء دالة من الكائن
         return $obj->sayHello();
     }
+    public function var()
+    {
+        // إنشاء Object من الكلاس
+        $obj = new TestClass();
+
+        // استدعاء دالة من الكائن
+        return $obj->size;
+    }
 }
